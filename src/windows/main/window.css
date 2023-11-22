@@ -1,0 +1,185 @@
+.container-welcome {
+display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+}
+
+.welcomeText {
+  color: #fff;
+  text-align: center;
+border: 1px solid #fff;
+
+}
+
+.descriptionText {
+  color: #fff;
+width: 40%;
+text-align: center;
+font-size: 25px;
+}
+
+.window-container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.iconName {
+  color: #fff;
+  text-shadow: 10px rgba(0, 0, 0, 0.5);
+}
+
+.allScreen {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+}
+
+.screen {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.bigPartScreen {
+  width: 90%;
+  height: 100%;
+}
+
+.welcome-message {
+  width: 100%;
+  height: 95%;
+}
+
+.window-footer {
+  width: 100%;
+  height: 5%;
+  background-color: rgba(42, 39, 39, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  transition: border 0.1s ease;
+}
+
+.shell-button-window {
+  width: 110px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chrome-button-window {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.chrome-img-window {
+  width: 100%;
+  height: 100%;
+}
+
+.chrome-img-footer {
+  width: 100%;
+  height: 75%;
+}
+
+.files-button-window {
+  width: 110px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.files-img-window {
+  width: 100%;
+  height: 100%;
+}
+
+.caroussel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 999;
+}
+
+.imageCarousselContainer {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 80%;
+}
+
+.imageCaroussel {
+  width: 90%;
+  height: 90%;
+  min-height: 85%;
+  max-height: 85%;
+}
+
+.buttonImageCaroussel {
+  position: relative;
+  color: #fff;
+}
+
+@media (max-width: 1020px) {
+  .imageCaroussel {
+    width: 100%;
+  }
+  .buttonImageCaroussel {
+    bottom: 0%;
+  }
+}
+
+@media (max-width: 700px) {
+  .imageCaroussel {
+    width: 120%;
+  }
+}
+
+@media (max-width: 520px) {
+  .imageCaroussel {
+    height: 30vh;
+  }
+  .shell-button-window {
+    height: 100px;
+    width: 100px;
+  }
+  .screen {
+    position: relative;
+    left: 2%;
+  }
+  .iconName {
+    font-size: 16px;
+    width: 100%;
+text-shadow: 10px rgba(0, 0, 0, 0.5);
+  }
+.descriptionText {
+width: 90%;
+}
+}

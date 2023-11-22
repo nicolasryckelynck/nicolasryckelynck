@@ -1,0 +1,55 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+border-radius: 10px;
+}
+
+button {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.sendMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6b6b6b;
+  border-radius: 20px;
+  position: relative;
+  left: 35%;
+}
+
+.close-button {
+  top: 10px;
+  right: 10px;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}

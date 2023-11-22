@@ -1,0 +1,23 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+color: #fff;
+text-align: center;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+width: 25vw;
+height: 5vh;
+}
+
+.saveButton {
+color: black;
+border-radius: 20px;
+height: 5vh;
+margin: 30px;
+background-color: #fff;
+}
