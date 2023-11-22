@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nicolasryckelynck/static/css/main.72fcace6.css",
+    "main.js": "/nicolasryckelynck/static/js/main.b705797c.js",
+    "static/js/787.538f5685.chunk.js": "/nicolasryckelynck/static/js/787.538f5685.chunk.js",
+    "static/media/kelklope.png": "/nicolasryckelynck/static/media/kelklope.1698ede84a8f50186941.png",
+    "static/media/smokeWeb.png": "/nicolasryckelynck/static/media/smokeWeb.a47784e86187cacd2890.png",
+    "static/media/webEcig.png": "/nicolasryckelynck/static/media/webEcig.2fde396361fd9539f414.png",
+    "static/media/webKelklope.png": "/nicolasryckelynck/static/media/webKelklope.85d1346b4e485b57334c.png",
+    "static/media/background-window.jpg": "/nicolasryckelynck/static/media/background-window.248b63647d6428a3e2b6.jpg",
+    "static/media/CV-NR.jpg": "/nicolasryckelynck/static/media/CV-NR.7a4596463cb95e2ed8be.jpg",
+    "static/media/thirdBG.jpg": "/nicolasryckelynck/static/media/thirdBG.22bf211b9a40b04f6b26.jpg",
+    "static/media/mayApp.png": "/nicolasryckelynck/static/media/mayApp.cd9b66cf431e2ca94c8a.png",
+    "static/media/2ndBG.jpeg": "/nicolasryckelynck/static/media/2ndBG.7708f9a7e42769950863.jpeg",
+    "static/media/word.png": "/nicolasryckelynck/static/media/word.5ccefd0e77664fec2085.png",
+    "static/media/sms.jpg": "/nicolasryckelynck/static/media/sms.4b3f07e2d912fc3ef529.jpg",
+    "static/media/chrome.png": "/nicolasryckelynck/static/media/chrome.8463c91e7daf5832429c.png",
+    "static/media/files-removebg-preview.png": "/nicolasryckelynck/static/media/files-removebg-preview.0844abcae0d1b905b690.png",
+    "static/media/python.png": "/nicolasryckelynck/static/media/python.f87cce3d57e38b0e4d47.png",
+    "static/media/pdf.png": "/nicolasryckelynck/static/media/pdf.6279a47b4effd0a7eae7.png",
+    "index.html": "/nicolasryckelynck/index.html",
+    "main.72fcace6.css.map": "/nicolasryckelynck/static/css/main.72fcace6.css.map",
+    "main.b705797c.js.map": "/nicolasryckelynck/static/js/main.b705797c.js.map",
+    "787.538f5685.chunk.js.map": "/nicolasryckelynck/static/js/787.538f5685.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72fcace6.css",
+    "static/js/main.b705797c.js"
+  ]
+}
