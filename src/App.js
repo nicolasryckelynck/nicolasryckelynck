@@ -10,7 +10,6 @@ import Window from "./windows/main/window";
 function App() {
   const rootReducer = combineReducers({
     user: userReducer,
-    // Ajoutez d'autres réducteurs si nécessaire
   });
 
   const store = createStore(rootReducer);
@@ -18,11 +17,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        {/* {!renderComponent ? ( */}
-        {/* <Login setRenderComponent={setRenderComponent} /> */}
-        {/* ) : ( */}
         <Window />
-        {/* )} */}
       </div>
     </Provider>
   );

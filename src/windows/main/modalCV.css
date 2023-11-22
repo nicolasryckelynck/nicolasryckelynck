@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin-top: 2%;
+  width: 60%;
+max-height: 97%;
+margin: 5%;
 }
 
 .button-container {
@@ -19,17 +20,17 @@
   padding: 0.5rem;
   cursor: pointer;
   border-radius: 20px;
-  background-color: #6b6b6b;
+  background-color: #aa2727;
 }
 
 .download-button {
   margin-left: 10px;
   border-radius: 20px;
-  background-color: #6b6b6b;
+  background-color: #285e95;
 }
 
 .cv_img {
-  width: 35%;
+  width: 60%;
   height: 80%;
 }
 
@@ -62,8 +63,8 @@ h2 {
     top: 85%;
     right: 10%;
   }
-h2 {
-position: relative;
-right: 10%;
-}
+  h2 {
+    position: relative;
+    right: 10%;
+  }
 }

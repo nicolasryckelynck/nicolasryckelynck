@@ -110,7 +110,6 @@ const Window = () => {
               <button
                 className="shell-button-window"
                 onClick={() => setShowTechno(true)}
-                style={{marginBottom: 20}}
               >
                 <img src={Word} alt="Projets" className="files-img-window" />
                 <p className="iconName">Veille Technologique</p>
@@ -118,7 +117,6 @@ const Window = () => {
               <button
                 className="shell-button-window"
                 onClick={() => setModalCV(true)}
-                style={{marginBottom: 20}}
               >
                 <img src={PDF} alt="Projets" className="files-img-window" />
                 <p className="iconName">CV</p>
@@ -127,7 +125,11 @@ const Window = () => {
                 className="shell-button-window"
                 onClick={() => setModalImageOpen(true)}
               >
-                <FontAwesomeIcon icon={faImage} color="#fff" />
+                <FontAwesomeIcon
+                  icon={faImage}
+                  color="#fff"
+                  class="files-img-window"
+                />
                 <p className="iconName">Fond d'écran</p>
               </button>
               {/* <button
@@ -141,7 +143,11 @@ const Window = () => {
                 className="shell-button-window"
                 onClick={() => setContactModalOpen(true)}
               >
-                <FontAwesomeIcon icon={faEnvelope} color="#0072ffc6" />
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  color="#0072ffc6"
+                  class="files-img-window"
+                />
                 <p className="iconName">Contact</p>
               </button>
               <button onClick={openModal} className="files-button-window">
@@ -191,23 +197,25 @@ const Window = () => {
                       <FontAwesomeIcon icon={faArrowRight} color="#fff" />
                     </button>
                   </div>
-                  <button
-                    onClick={closeImageModal}
-                    className="buttonImageCaroussel"
-                  >
-                    Fermer
-                  </button>
-                  <button
-                    onClick={() => {
-                      setSelectedImage(
-                        `url(${backgroundImages[currentImageIndex]})`
-                      );
-                      setModalImageOpen(false);
-                    }}
-                    className="buttonImageCaroussel"
-                  >
-                    Sauvegarder
-                  </button>
+                  <section class="buttonSection">
+                    <button
+                      onClick={closeImageModal}
+                      className="buttonCloseImageCaroussel"
+                    >
+                      Fermer
+                    </button>
+                    <button
+                      onClick={() => {
+                        setSelectedImage(
+                          `url(${backgroundImages[currentImageIndex]})`
+                        );
+                        setModalImageOpen(false);
+                      }}
+                      className="buttonImageCaroussel"
+                    >
+                      Sauvegarder
+                    </button>
+                  </section>
                 </div>
               ) : (
                 <></>

@@ -4,12 +4,7 @@ import "./veille.css";
 const Veille = ({onClose}) => {
   return (
     <div className="contact-container">
-      <div className="button-container">
-        <button onClick={onClose} className="close-button">
-          Fermer
-        </button>
-      </div>
-      <h2>Veille Technologique</h2>
+      <div className="button-container"></div>
       <div className="pdf-container">
         <h2 class="veille-title">
           Veille Technologique : L'Évolution de l'Intelligence Artificielle à
@@ -150,6 +145,9 @@ const Veille = ({onClose}) => {
           l'automatisation ne fait que commencer à se faire sentir.
         </p>
       </div>
+      <button onClick={onClose} className="close-button-techno">
+        Fermer
+      </button>
     </div>
   );
 };

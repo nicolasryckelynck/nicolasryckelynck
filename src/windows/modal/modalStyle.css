@@ -35,7 +35,7 @@
   font-weight: bold;
   cursor: pointer;
   height: 10%;
-width: 10%;
+  width: 2%;
 }
 
 .close:hover,
@@ -147,9 +147,9 @@ width: 10%;
     border-right: 0px solid #fff;
     border-bottom: 1px solid #fff;
   }
-.categorieProject {
-width: 100%;
-}
+  .categorieProject {
+    width: 100%;
+  }
   .projectsContainer {
     position: relative;
     right: 20rem;
@@ -175,7 +175,7 @@ width: 100%;
   .image-details {
     width: 100%;
   }
-.projectDescription {
-width: 100%;
-}
+  .projectDescription {
+    width: 100%;
+  }
 }
