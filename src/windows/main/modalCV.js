@@ -13,7 +13,7 @@ const ModalCV = ({onClose}) => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="cv-container">
       <div className="button-container">
         <button onClick={onClose} className="close-button">
           Fermer

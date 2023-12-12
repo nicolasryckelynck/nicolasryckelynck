@@ -1,4 +1,4 @@
-.contact-container {
+.veille-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,6 @@
   height: 100%;
   width: 100vw;
   position: relative;
-  bottom: 7%;
 }
 
 .button-container {
@@ -23,14 +22,20 @@
   border-radius: 20px;
   background-color: #aa2727;
   margin-top: 5%;
+position: relative;
+  bottom: 2%;
+  right: 10%;
 }
 
 .pdf-container {
   width: 40%;
-  height: 70%;
-  background-color: #436b92;
+  height: 90%;
+  background-color: #191919;
   overflow: auto;
-  border-radius: 20px;
+  border-radius: 25px;
+position: relative;
+top: 5%;
+right: 10%;
 }
 
 .veille-title {
@@ -42,13 +47,14 @@
 .text {
   text-align: justify;
   margin: 10px;
+  color: #fff;
 }
 
 @media (max-width: 520px) {
-  .contact-container {
+  .veille-container {
     width: 100vw;
     position: relative;
-    right: 70%;
+    right: 55%;
     bottom: 0;
   }
   .pdf-container {

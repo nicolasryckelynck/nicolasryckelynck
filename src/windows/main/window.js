@@ -5,12 +5,13 @@ import {
   faArrowRight,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import {faTerminal, faImage} from "@fortawesome/free-solid-svg-icons";
+import {faTerminal, faImage, faUser} from "@fortawesome/free-solid-svg-icons";
 
 import "./window.css";
 import "../modal/modalStyle.css";
 
 import Modal from "../modal/projectExplorer";
+import PersonalInformations from "../modal/personnalInfo";
 import Contact from "./contact";
 import ModalCV from "./modalCV";
 import Veille from "./veille";
@@ -27,7 +28,6 @@ import Word from "../../assets/word.png";
 const Window = () => {
   const [shellVisibility, setShellVisibility] = useState(false);
   const [showWindow, setShowWindow] = useState(false);
-  // const [welcomeMessage, setWelcomeMessage] = useState("");
   const [isModalOpen, setModalOpen] = useState(false);
   const [contactModalOpen, setContactModalOpen] = useState(false);
   const [isModalImageOpen, setModalImageOpen] = useState(false);
@@ -37,6 +37,7 @@ const Window = () => {
     `url(${require("../../assets/background-window.jpg")})`
   );
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [modalPersonnalInfo, setModalPersonnalInfo] = useState(false);
 
   const openModal = () => {
     setModalOpen(true);
@@ -64,21 +65,6 @@ const Window = () => {
         (prevIndex - 1 + backgroundImages.length) % backgroundImages.length
     );
   };
-
-  // const messageText = "Bienvenue sur mon portfolio";
-
-  // const addLetter = async () => {
-  //   const messageDelay = 100;
-
-  //   for (let i = 0; i < messageText.length; i++) {
-  //     setWelcomeMessage((prevMessage) => prevMessage + messageText[i]);
-  //     setTimeout(messageDelay);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   addLetter();
-  // }, []);
 
   const closeTerminal = () => {
     setShellVisibility(false);
@@ -109,6 +95,17 @@ const Window = () => {
             <div className="screen">
               <button
                 className="shell-button-window"
+                onClick={() => setModalPersonnalInfo(true)}
+              >
+                <FontAwesomeIcon
+                  icon={faUser}
+                  color="#436B92"
+                  className="files-img-window"
+                />
+                <p className="iconName">Mes informations</p>
+              </button>
+              <button
+                className="shell-button-window"
                 onClick={() => setShowTechno(true)}
               >
                 <img src={Word} alt="Projets" className="files-img-window" />
@@ -128,7 +125,7 @@ const Window = () => {
                 <FontAwesomeIcon
                   icon={faImage}
                   color="#fff"
-                  class="files-img-window"
+                  className="files-img-window"
                 />
                 <p className="iconName">Fond d'écran</p>
               </button>
@@ -146,7 +143,7 @@ const Window = () => {
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   color="#0072ffc6"
-                  class="files-img-window"
+                  className="files-img-window"
                 />
                 <p className="iconName">Contact</p>
               </button>
@@ -155,6 +152,7 @@ const Window = () => {
                   src={FilesImg}
                   alt="Projets"
                   className="files-img-window"
+                  style={{height: "5rem", width: "5rem"}}
                 />
                 <p className="iconName">Projets</p>
               </button>
@@ -180,8 +178,12 @@ const Window = () => {
               {contactModalOpen && (
                 <Contact onClose={() => setContactModalOpen(false)} />
               )}
+              {modalPersonnalInfo && (
+                <PersonalInformations
+                  onClose={() => setModalPersonnalInfo(false)}
+                />
+              )}
               <Modal isOpen={isModalOpen} onClose={closeModal} />
-
               {isModalImageOpen ? (
                 <div className="imageCarousselContainer">
                   <div className="caroussel">
@@ -197,7 +199,7 @@ const Window = () => {
                       <FontAwesomeIcon icon={faArrowRight} color="#fff" />
                     </button>
                   </div>
-                  <section class="buttonSection">
+                  <section className="buttonSection">
                     <button
                       onClick={closeImageModal}
                       className="buttonCloseImageCaroussel"
@@ -246,18 +248,17 @@ const Window = () => {
               />
             </button>
             <button onClick={openModal}>
-              <img
-                src={FilesImg}
-                alt="Projets"
-                className="chrome-img-footer"
-                style={{height: "100%"}}
-              />
+              <img src={FilesImg} alt="Projets" className="chrome-img-footer" />
             </button>
             <button
               className="shell-button"
               onClick={() => setContactModalOpen(true)}
             >
-              <FontAwesomeIcon icon={faEnvelope} color="#0072c6" />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                color="#0072c6"
+                className="chrome-img-footer"
+              />
             </button>
           </div>
         </div>

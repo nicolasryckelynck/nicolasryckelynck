@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100%;
+  background-color: rgba(84, 84, 84, 0.467);
 }
 
 form {
@@ -26,7 +28,7 @@ textarea {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 button {
@@ -52,4 +54,20 @@ button {
   border: none;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .contact-container {
+    height: 100vh;
+    width: 90vw;
+    position: relative;
+    right: 60%;
+    background-color: #9c9c9ca8;
+  }
+  input,
+  textarea {
+    width: 90%;
+    height: 60px;
+    margin: 10px;
+  }
 }
