@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/nicolasryckelynck/static/css/main.efbb0f6d.css",
-    "main.js": "/nicolasryckelynck/static/js/main.d8073044.js",
+    "main.css": "/nicolasryckelynck/static/css/main.97d1aa31.css",
+    "main.js": "/nicolasryckelynck/static/js/main.878f0ff9.js",
     "static/js/787.538f5685.chunk.js": "/nicolasryckelynck/static/js/787.538f5685.chunk.js",
     "static/media/kelklope.png": "/nicolasryckelynck/static/media/kelklope.1698ede84a8f50186941.png",
     "static/media/smokeWeb.png": "/nicolasryckelynck/static/media/smokeWeb.a47784e86187cacd2890.png",
     "static/media/webEcig.png": "/nicolasryckelynck/static/media/webEcig.2fde396361fd9539f414.png",
     "static/media/webKelklope.png": "/nicolasryckelynck/static/media/webKelklope.85d1346b4e485b57334c.png",
     "static/media/background-window.jpg": "/nicolasryckelynck/static/media/background-window.248b63647d6428a3e2b6.jpg",
+    "static/media/nico-photo.jpg": "/nicolasryckelynck/static/media/nico-photo.76224ba69ee4cd2cd746.jpg",
     "static/media/CV-NR.jpg": "/nicolasryckelynck/static/media/CV-NR.7a4596463cb95e2ed8be.jpg",
+    "static/media/synthèse-nicolas_image.jpg": "/nicolasryckelynck/static/media/synthèse-nicolas_image.7afb6a30586d3b7c2b29.jpg",
     "static/media/thirdBG.jpg": "/nicolasryckelynck/static/media/thirdBG.22bf211b9a40b04f6b26.jpg",
     "static/media/mayApp.png": "/nicolasryckelynck/static/media/mayApp.cd9b66cf431e2ca94c8a.png",
     "static/media/2ndBG.jpeg": "/nicolasryckelynck/static/media/2ndBG.7708f9a7e42769950863.jpeg",
@@ -19,12 +21,12 @@
     "static/media/python.png": "/nicolasryckelynck/static/media/python.f87cce3d57e38b0e4d47.png",
     "static/media/pdf.png": "/nicolasryckelynck/static/media/pdf.6279a47b4effd0a7eae7.png",
     "index.html": "/nicolasryckelynck/index.html",
-    "main.efbb0f6d.css.map": "/nicolasryckelynck/static/css/main.efbb0f6d.css.map",
-    "main.d8073044.js.map": "/nicolasryckelynck/static/js/main.d8073044.js.map",
+    "main.97d1aa31.css.map": "/nicolasryckelynck/static/css/main.97d1aa31.css.map",
+    "main.878f0ff9.js.map": "/nicolasryckelynck/static/js/main.878f0ff9.js.map",
     "787.538f5685.chunk.js.map": "/nicolasryckelynck/static/js/787.538f5685.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efbb0f6d.css",
-    "static/js/main.d8073044.js"
+    "static/css/main.97d1aa31.css",
+    "static/js/main.878f0ff9.js"
   ]
 }
