@@ -6,6 +6,7 @@
   height: 100%;
   width: 100vw;
   position: relative;
+  background-color: #0c121f;
 }
 
 .button-container {
@@ -22,7 +23,7 @@
   border-radius: 20px;
   background-color: #aa2727;
   margin-top: 5%;
-position: relative;
+  position: relative;
   bottom: 2%;
   right: 10%;
 }
@@ -30,23 +31,42 @@ position: relative;
 .pdf-container {
   width: 40%;
   height: 90%;
-  background-color: #191919;
+  background-color: #262626;
   overflow: auto;
-  border-radius: 25px;
-position: relative;
-top: 5%;
-right: 10%;
+  position: relative;
+  border: 0.01px solid #fff;
+  top: 5%;
+  right: 10%;
+}
+
+.pdf-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.pdf-container::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+/* Pour les navigateurs Gecko (Firefox) */
+.pdf-container::-moz-scrollbar {
+  width: 12px;
+}
+
+.pdf-container::-moz-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 6px;
 }
 
 .veille-title {
   color: #fff;
   text-align: center;
-  margin: 10px;
+  margin: 30px;
 }
 
 .text {
   text-align: justify;
-  margin: 10px;
+  margin: 30px;
   color: #fff;
 }
 
@@ -60,10 +80,15 @@ right: 10%;
   .pdf-container {
     width: 90%;
     height: 80%;
+    left: 0;
   }
   .veille-title {
     text-align: center;
     position: relative;
     left: 1%;
+  }
+  .close-button-techno {
+    top: 5%;
+    left: 0%;
   }
 }

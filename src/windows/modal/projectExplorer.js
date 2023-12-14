@@ -15,6 +15,7 @@ import MayApp from "../../assets/mayApp.png";
 
 import SMS from "../../assets/sms.jpg";
 import Python from "../../assets/python.png";
+import GSB from "../../assets/gsb.png";
 
 const Modal = ({isOpen, onClose}) => {
   const [selectedCategory, setSelectedCategory] = useState("Web");
@@ -49,6 +50,13 @@ const Modal = ({isOpen, onClose}) => {
         description:
           "Participation au développement d'un site d'e-commerce en B2C.\n\n J'ai pu développer de nombreuses fonctionnalités en ReactJS ou en PHP.\n",
         images: [EcigWeb],
+      },
+      {
+        name: "GSB",
+        langage: "HTML / CSS / PHP",
+        description:
+          "Création d'une plateforme de gestion de frais avec la possibilité d'ajouter / gérer ses fiches de frais.\nCette plateforme contient également une partie admin et une partie comptable.\n",
+        images: [GSB],
       },
     ],
     Mobile: [
@@ -150,7 +158,7 @@ const Modal = ({isOpen, onClose}) => {
                   ) : (
                     <h3 className="nameProject">{project.name}</h3>
                   )}
-                  <p className="nameProject" style={{fontSize: 15}}>
+                  <p className="langageProject" style={{fontSize: 15}}>
                     {project.langage}
                   </p>
                   <div className="projectImages">

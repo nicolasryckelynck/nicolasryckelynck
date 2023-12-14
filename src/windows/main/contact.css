@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: rgba(84, 84, 84, 0.467);
+  background-color: #0c121f;
 }
 
 form {
@@ -41,19 +41,21 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6b6b6b;
+  background-color: #2b2b2b;
   border-radius: 20px;
   position: relative;
   left: 35%;
 }
 
-.close-button {
+.close-button-contact {
   top: 10px;
   right: 10px;
   color: #ffffff;
   border: none;
   padding: 0.5rem;
   cursor: pointer;
+  border-radius: 20px;
+  background-color: #aa2727;
 }
 
 @media (max-width: 520px) {
@@ -62,7 +64,7 @@ button {
     width: 90vw;
     position: relative;
     right: 60%;
-    background-color: #9c9c9ca8;
+    background-color: #0c121f;
   }
   input,
   textarea {

@@ -15,7 +15,7 @@ const ModalCV = ({onClose}) => {
   return (
     <div className="cv-container">
       <div className="button-container">
-        <button onClick={onClose} className="close-button">
+        <button onClick={onClose} className="close-button-modalCv">
           Fermer
         </button>
         <button onClick={downloadCV} className="download-button">

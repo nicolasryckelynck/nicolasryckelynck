@@ -83,6 +83,13 @@
   color: #fff;
   font-size: 20px;
   text-align: center;
+  text-decoration: underline;
+}
+
+.langageProject {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
 }
 
 .projectImages {

@@ -33,7 +33,7 @@ const Contact = ({onClose}) => {
 
   return (
     <div className="contact-container">
-      <button onClick={onClose} className="close-button">
+      <button onClick={onClose} className="close-button-contact">
         Annuler
       </button>
       <h2>Contactez-moi</h2>
