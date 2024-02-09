@@ -25,5 +25,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nicolasryckelynck&show_icons=true&locale=en&layout=compact" alt="nicolasryckelynck" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nicolasryckelynck&show_icons=true&locale=en" alt="nicolasryckelynck" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nicolasryckelynck&" alt="nicolasryckelynck" /></p>
